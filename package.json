@@ -1,5 +1,5 @@
 {
-  "name": "tabcss",
+  "name": "tailwindtableau",
   "version": "1.0.0",
   "description": "Inject CSS into Tableau Dashboards",
   "main": "index.js",
@@ -17,10 +17,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FsuLauncherComp/BootstrapTableau.git"
+    "url": "git+https://github.com/JoeKyx/BootstrapTableau.git"
   },
   "bugs": {
-    "url": "https://github.com/FsuLauncherComp/BootstrapTableau/issues"
+    "url": "https://github.com/JoeKyx/BootstrapTableau/issues"
   },
-  "homepage": "https://github.com/FsuLauncherComp/BootstrapTableau#readme"
+  "homepage": "https://github.com/JoeKyx/BootstrapTableau#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
 }
