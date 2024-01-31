@@ -69,6 +69,7 @@ const tableauExt = window.tableau.extensions;
             id: `${objId}`,
             css: {
                 'position': 'absolute',
+                'z-index': '-10',
                 'top': `${parseInt(obj.position.y) + margin[0]}px`,
                 'left': `${parseInt(obj.position.x) + margin[3]}px`,
                 'width': `${parseInt(obj.size.width) - margin[1] - margin[3]}px`,
