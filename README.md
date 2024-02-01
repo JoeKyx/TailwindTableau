@@ -1,6 +1,6 @@
-# BootstrapTableau
+# TailwindTableau
 
-Bootstrap 5 style extension for Tableau. Create rich backgrounds for Tableau objects using only class names.
+TailwindCSS style extension for Tableau. 
 
 ![Example 0!](/assets/Example0.png "Example 0")
 
