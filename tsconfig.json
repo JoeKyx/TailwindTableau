@@ -1,0 +1,22 @@
+{
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "eslintrc.js"
+  ],
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "sourceMap": true,
+    "alwaysStrict": true,
+    "baseUrl": ".", // Changed to the project root
+    "typeRoots": [
+      "./node_modules/@tableau",
+      "./node_modules/@types"
+    ],
+  }
+}
